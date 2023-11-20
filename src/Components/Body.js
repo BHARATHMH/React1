@@ -31,9 +31,9 @@ const Body1 = () => {
 
     return (
         <div>
-            <div>
+            <div style={{ paddingTop: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                 <center>
-                <img src={Image} alt="images" /> <br />
+                <img src={Image} alt="images" style={{ height: '200px', width: '200px'}}/> <br />
                 <p>Nature</p>
                 <p>likes: {likes}</p>
                 {/* destructuring */}
